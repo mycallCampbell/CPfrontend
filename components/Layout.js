@@ -37,21 +37,21 @@ function Layout({ children }) {
               >
                 <Link href="/#">
                   <div className={styles.titleOpen}>
-                    <div className={styles.infoOpen}>INFO </div>
+                    <div className={styles.infoOpen}>TITLE</div>
                     <div className={styles.imgWave}>
-                      <Image src={"/sound.png"} width={32} height={32} />
+                      <Image src={"/"} width={32} height={32} />
                     </div>
-                    <div className={styles.waveOpen}>WAVE</div>
+                    <div className={styles.waveOpen}>OPEN</div>
                   </div>
                 </Link>
 
                 <nav className={styles.navbar}>
                   <ul>
                     <li>
-                      <Link href={"/watches"}>
+                      <Link href={"/"}>
                         <div className={styles.menuGrid}>
                           <div className={styles.menuItem1}>
-                            <p>EPISODES</p>
+                            <p>Place Holder</p>
                           </div>
                           <div className={styles.menuItem2}>{">"}</div>
                         </div>
@@ -59,10 +59,10 @@ function Layout({ children }) {
                     </li>
 
                     <li>
-                      <Link href={"/blogs"}>
+                      <Link href={"/"}>
                         <div className={styles.menuGrid}>
                           <div className={styles.menuItem1}>
-                            <p>BLOG</p>
+                            <p>Place Holder</p>
                           </div>
                           <div className={styles.menuItem2}>{">"}</div>
                         </div>
@@ -70,10 +70,10 @@ function Layout({ children }) {
                     </li>
 
                     <li>
-                      <Link href={"/contact"}>
+                      <Link href={"/"}>
                         <div className={styles.menuGrid}>
                           <div className={styles.menuItem1}>
-                            <p>CONTACT</p>
+                            <p>Place Holder</p>
                           </div>
                           <div className={styles.menuItem2}>{">"}</div>
                         </div>
@@ -94,11 +94,11 @@ function Layout({ children }) {
           >
             <Link href="/">
               <div className={styles.titleClosed}>
-                <div className={styles.infoClosed}>INFO </div>
+                <div className={styles.infoClosed}>TITLE</div>
                 <div className={styles.imgWave}>
-                  <Image src={"/sound.png"} width={32} height={32} />
+                  <Image src={"/"} width={32} height={32} />
                 </div>
-                <div className={styles.waveClosed}>WAVE</div>
+                <div className={styles.waveClosed}>CLOSE</div>
               </div>
             </Link>
           </section>

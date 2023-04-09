@@ -7,30 +7,30 @@ function Navgrid() {
     <nav className={styles.navbar}>
       <ul>
         <li>
-          <Link href={"/watches"}>
+          <Link href={"/"}>
             <div className={styles.menuItem}>
               <div>
-                <h5>EPISODES</h5>
+                <h5>Place Holder1</h5>
               </div>
             </div>
           </Link>
         </li>
 
         <li>
-          <Link href={"/blogs"}>
+          <Link href={"/"}>
             <div className={styles.menuItem}>
               <div>
-                <h5>BLOGS</h5>
+                <h5>Place Holder2</h5>
               </div>
             </div>
           </Link>
         </li>
 
         <li>
-          <Link href={"/contact"}>
+          <Link href={"/"}>
             <div className={styles.menuItem}>
               <div>
-                <h5>CONTACT</h5>
+                <h5>Place Holder3</h5>
               </div>
             </div>
           </Link>
