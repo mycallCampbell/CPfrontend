@@ -37,11 +37,8 @@ function Layout({ children }) {
               >
                 <Link href="/#">
                   <div className={styles.titleOpen}>
-                    <div className={styles.infoOpen}>TITLE</div>
-                    <div className={styles.imgWave}>
-                      <Image src={"/"} width={32} height={32} />
-                    </div>
-                    <div className={styles.waveOpen}>OPEN</div>
+                    <div className={styles.infoOpen}>CONTROL</div>
+                    <div className={styles.waveOpen}>PANEL</div>
                   </div>
                 </Link>
 
@@ -94,11 +91,7 @@ function Layout({ children }) {
           >
             <Link href="/">
               <div className={styles.titleClosed}>
-                <div className={styles.infoClosed}>TITLE</div>
-                <div className={styles.imgWave}>
-                  <Image src={"/"} width={32} height={32} />
-                </div>
-                <div className={styles.waveClosed}>CLOSE</div>
+                <div>CONTROL PANEL</div>
               </div>
             </Link>
           </section>

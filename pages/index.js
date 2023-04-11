@@ -1,13 +1,13 @@
 import Head from "next/head";
-import React, { useState } from "react";
 import styles from "../styles/Home.module.css";
+import InputField from "../components/InputField";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       {/*  META DATA */}
       <Head>
-        <title>Boiler Plate</title>
+        <title>CONTROL PANEL</title>
         <meta name="description" content="Boiler Plate" />
         <meta property="og:image" content="" />
 
@@ -15,7 +15,11 @@ export default function Home() {
 
         <link rel="icon" href="/" />
       </Head>
-      <main></main>
+
+      {/* MAIN SECTION */}
+      <main>
+        <InputField />
+      </main>
     </div>
   );
 }

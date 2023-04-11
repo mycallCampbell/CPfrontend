@@ -5,7 +5,7 @@ function CartIcon() {
   return (
     <div className={styles.cartIconContainer}>
       <>
-        <Image src={"/"} width={62.5} height={62.5} />
+        <Image src={"/logo.png"} width={62.5} height={62.5} />
       </>
     </div>
   );

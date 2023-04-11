@@ -48,24 +48,12 @@ margin-top: 10px;
 }
 
 .titleClosed {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
+ margin-top: 10px;
+ text-align: center;
+ color: #2e2e2e;
+ letter-spacing: 3px;
  }
 
-.infoClosed {
-  color: #2e2e2e;
-  letter-spacing: 3px;
-}
-.waveClosed {
-  color: #2e2e2e;
-  letter-spacing: 3px;
-}
-
-.imgWave {
-  margin: 0 5px;
-}
 
 .displayTitle{
   margin: 20px 0;

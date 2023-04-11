@@ -1,0 +1,100 @@
+.container {
+  margin: 20px;
+}
+
+.assignmentContainer{
+}
+
+.ratingContainer {
+}
+
+.spaceAboveAssignementLabel {
+  height: 30px;
+}
+
+/* TEXT AREA INPUT */
+.textareaContainer {
+  display: flex;
+  flex: start;
+  align-items: center;
+  margin: 10px 0 20px 0;
+}
+
+.textareaField {
+  outline: none;
+  border: 3px solid #91c0dc;
+  padding: 10px 10px 30px 10px;
+  width: 90%;
+}
+
+/* RATING FIELD INPUT */
+.ratingInputFieldContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+ 
+.ratingField {
+  outline: none;
+  border: 3px solid #91c0dc;
+  margin: 10px 10px 10px 0;
+  padding: 10px;
+  width: 90%;
+}
+
+/* SUBMISSION BTN  */
+.submit {
+  margin-left: 10px;
+  padding: 9px 20px;
+  border-radius: 3px;
+  background: #91c0dc;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submitOff {
+  margin-left: 10px;
+  padding: 9px 20px;
+  border-radius: 3px;
+  background: #91c0dc;
+  opacity: 0.5;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* TOGGLE DISPLAY */
+.displayNone {
+    display: none;
+    color: green;
+}
+
+.display{
+  color: green;
+  margin: -10px 0 20px 0;
+}
+
+/* DISPLAY VALIDATION */
+.displayValidate {
+  color: #2e2e2e;
+}
+
+/* BUTTONS */
+.BTN {
+  margin-left: 10px;
+  padding: 9px 40px;
+  border-radius: 3px;
+  background: #91c0dc;
+  color: #fff;
+  cursor: pointer;
+}
+
+.goToBTN {
+  margin-top: 20px;
+  padding: 9px 40px;
+  border-radius: 3px;
+  background: #91c0dc;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
