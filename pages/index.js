@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import InputField from "../components/InputField";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
 
       {/* MAIN SECTION */}
       <main>
+        <Hero />
+        <div className={styles.title}>TASK ASSIGNMENT</div>
         <InputField />
       </main>
     </div>

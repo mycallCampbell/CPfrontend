@@ -14,6 +14,7 @@ export default function InputField() {
   const [post, setPost] = useState(false);
   const [submitOff, setSubmitOff] = useState(true);
 
+  let data = "";
   // USE EFFECT
   useEffect(() => {
     if (rating === "" || input === "") {
@@ -61,6 +62,7 @@ export default function InputField() {
       return;
     } else {
       setAssignmentValid(true);
+      data = input;
       return;
     }
   };
@@ -72,6 +74,7 @@ export default function InputField() {
         setInput("");
         setRating("");
         setAssignmentValid(false);
+        setPostDBError(false);
       }, 7000);
     }
   };
@@ -83,7 +86,7 @@ export default function InputField() {
 
     console.log("reached post");
     try {
-      const response = await fetch("/#", {
+      const response = await fetch("http://localhost:8000/api/addassignment/", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {
@@ -94,6 +97,7 @@ export default function InputField() {
       console.log(responseData);
     } catch (error) {
       // setPostDBError(!postDBError);
+      console.log(error);
     }
   };
 

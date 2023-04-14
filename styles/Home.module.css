@@ -1,6 +1,14 @@
 /* PRIMARY COLOUR = #91c0dc */
+/* TEXT COLOUR #2e2e2e */
 
 .container {
     /* display: flex; */
     /* flex: 1; */
+}
+
+.title {
+    font-size: 1.3rem;
+    color: #2e2e2e;
+    text-align: center;
+    margin-top: 20px;
 }
