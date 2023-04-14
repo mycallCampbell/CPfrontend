@@ -37,8 +37,8 @@ function Layout({ children }) {
               >
                 <Link href="/#">
                   <div className={styles.titleOpen}>
-                    <div className={styles.infoOpen}>CONTROL</div>
-                    <div className={styles.waveOpen}>PANEL</div>
+                    <div className={styles.infoOpen}>MYCALL</div>
+                    <div className={styles.waveOpen}>DEV</div>
                   </div>
                 </Link>
 
@@ -91,7 +91,7 @@ function Layout({ children }) {
           >
             <Link href="/">
               <div className={styles.titleClosed}>
-                <div>CONTROL PANEL</div>
+                <div>MYCALL DEV</div>
               </div>
             </Link>
           </section>
