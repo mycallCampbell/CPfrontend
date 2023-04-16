@@ -45,10 +45,10 @@ function Layout({ children }) {
                 <nav className={styles.navbar}>
                   <ul>
                     <li>
-                      <Link href={"/"}>
+                      <Link href={"/LandingWebApp"}>
                         <div className={styles.menuGrid}>
                           <div className={styles.menuItem1}>
-                            <p>Place Holder</p>
+                            <p>HOME</p>
                           </div>
                           <div className={styles.menuItem2}>{">"}</div>
                         </div>
