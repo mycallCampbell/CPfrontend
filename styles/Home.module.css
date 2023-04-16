@@ -2,13 +2,35 @@
 /* TEXT COLOUR #2e2e2e */
 
 .container {
-    /* display: flex; */
-    /* flex: 1; */
 }
 
-.title {
-    font-size: 1.3rem;
-    color: #2e2e2e;
+.heroContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.titleHeroContainer {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 2px 2px 3px black;
+    line-height: 1.3;
     text-align: center;
-    margin-top: 20px;
+    padding: 1rem;
+}
+    
+.titleHeroContainer span {
+    color: rgb(30, 171, 39);
+    font-size: 1.5rem;
+}
+
+.subTitle {
+    text-align: center;
+    margin: 40px 0 20px 0;
+    font-size: 1.3rem;
 }

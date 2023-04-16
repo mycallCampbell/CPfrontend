@@ -1,15 +1,13 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import Image from "next/image";
+import TitleHero from "./TitleHero";
 
-export default function Hero() {
+export default function Hero({ src, width, height }) {
   return (
     <div>
       <div className={styles.imageContainer}>
-        <Image src={"/hero_waves_stars.png"} width={1024} height={682} />
-        <div className={styles.title}>
-          WELCOME TO YOUR PERSONAL <span>AI</span> ORGANSIER
-        </div>
+        <Image src={src} width={width} height={height} />
       </div>
     </div>
   );
