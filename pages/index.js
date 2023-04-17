@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Meta from "../components/Meta";
-import styles from "../styles/home.module.css";
+import styles from "../styles/Home.module.css";
 import Hero from "../components/Hero";
 import TitleHero from "../components/TitleHero";
 import Footer from "../components/Footer";
