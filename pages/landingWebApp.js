@@ -8,7 +8,7 @@ import Hero from "../components/Hero";
 import TitleHero from "../components/TitleHero";
 import Footer from "../components/Footer";
 
-export default function LandingWebApp() {
+export default function landingWebApp() {
   // useState
   const [speed, setSpeed] = useState(false);
   const [google, setGoogle] = useState(false);

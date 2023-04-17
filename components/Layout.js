@@ -45,7 +45,7 @@ function Layout({ children }) {
                 <nav className={styles.navbar}>
                   <ul>
                     <li>
-                      <Link href={"/LandingWebApp"}>
+                      <Link href={"/landingWebApp"}>
                         <div className={styles.menuGrid}>
                           <div className={styles.menuItem1}>
                             <p>WEB APPS</p>
