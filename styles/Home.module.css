@@ -72,7 +72,7 @@
 }
 
 .selectBoxContainer {
-    text-align: center;
+  text-align: center;
 }
 
 .selectBox{
@@ -84,8 +84,8 @@
   color: #333;
   background-color: #fff;
   appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  /* -webkit-appearance: none;
+  -moz-appearance: none; */
 }
 
 .selectBox:focus {
