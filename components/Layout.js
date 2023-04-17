@@ -35,7 +35,7 @@ function Layout({ children }) {
                 className={styles.menuContainer}
                 id="menuContainer"
               >
-                <Link href="/#">
+                <Link href="/landingWebApp">
                   <div className={styles.titleOpen}>
                     <div className={styles.infoOpen}>MYCALL</div>
                     <div className={styles.waveOpen}>DEV</div>
