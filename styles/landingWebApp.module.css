@@ -9,6 +9,17 @@
     cursor: pointer;
 }
 
+.getInTouchBTN {
+    padding: 10px 20px;
+    margin: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #479986;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
 .heroContainer {
     position: relative;
     display: flex;
@@ -143,4 +154,11 @@
 /* IMAGES */
 .checkMark {
     text-align: center;
+}
+
+.buildTitle {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 30px auto;
+    color: #2e2e2e;
 }

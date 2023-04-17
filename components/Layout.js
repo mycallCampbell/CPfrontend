@@ -48,29 +48,7 @@ function Layout({ children }) {
                       <Link href={"/LandingWebApp"}>
                         <div className={styles.menuGrid}>
                           <div className={styles.menuItem1}>
-                            <p>HOME</p>
-                          </div>
-                          <div className={styles.menuItem2}>{">"}</div>
-                        </div>
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link href={"/"}>
-                        <div className={styles.menuGrid}>
-                          <div className={styles.menuItem1}>
-                            <p>Place Holder</p>
-                          </div>
-                          <div className={styles.menuItem2}>{">"}</div>
-                        </div>
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link href={"/"}>
-                        <div className={styles.menuGrid}>
-                          <div className={styles.menuItem1}>
-                            <p>Place Holder</p>
+                            <p>WEB APPS</p>
                           </div>
                           <div className={styles.menuItem2}>{">"}</div>
                         </div>

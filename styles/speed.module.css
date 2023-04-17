@@ -1,0 +1,24 @@
+.content {
+    margin: 20px;
+}
+
+.heroContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.titleHeroContainer {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 2px 2px 3px black;
+    line-height: 1.3;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}

@@ -4,7 +4,7 @@ import Images from "next/image";
 
 export default function Footer() {
   return (
-    <div>
+    <div className={styles.container}>
       <div>
         <ul className={styles.unorderedList}>
           <li className={styles.listItem}>CONTACT</li>

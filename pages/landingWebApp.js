@@ -13,22 +13,33 @@ export default function LandingWebApp() {
   const [speed, setSpeed] = useState(false);
   const [google, setGoogle] = useState(false);
   const [images, setImages] = useState(false);
+  const [scalabiltiy, setScalability] = useState(false);
 
   // ONCLICK HANDLERS
   const handleSpeed = () => {
     setSpeed(true);
     setImages(false);
     setGoogle(false);
+    setScalability(false);
   };
 
   const handleGoogle = () => {
     setGoogle(true);
     setSpeed(false);
     setImages(false);
+    setScalability(false);
   };
 
   const handleImages = () => {
     setImages(true);
+    setSpeed(false);
+    setGoogle(false);
+    setScalability(false);
+  };
+
+  const handleScalability = () => {
+    setScalability(true);
+    setImages(false);
     setSpeed(false);
     setGoogle(false);
   };
@@ -85,6 +96,9 @@ export default function LandingWebApp() {
             <option onClick={(e) => handleImages(e)} value="images">
               IMAGES
             </option>
+            <option onClick={(e) => handleScalability(e)} value="scalability">
+              SCALABILITY
+            </option>
           </select>
         </div>
 
@@ -92,7 +106,7 @@ export default function LandingWebApp() {
         <ul className={styles.unorderedList}>
           <li className={speed ? styles.listItem : styles.displayNone}>
             SPEED
-            <Link href={"/#"}>
+            <Link href={"/speed"}>
               <span className={styles.moreInfoBTN}>MORE INFO</span>
             </Link>
             <p className={styles.additionalInfo}>
@@ -120,11 +134,26 @@ export default function LandingWebApp() {
               ALL IMAGES MUST BE UNIQUE AND THE FILE SIZE MUST BE OPTIMISED.
             </p>
           </li>
+
+          <li className={scalabiltiy ? styles.listItem : styles.displayNone}>
+            SCALABILITY{" "}
+            <Link href={"/#"}>
+              <span className={styles.moreInfoBTN}>MORE INFO</span>
+            </Link>
+            <p className={styles.additionalInfo}>
+              DESIGNED TO HANDLE INCREASED WEBSITE TRAFFIC
+            </p>
+          </li>
         </ul>
         {/* SECTION WHERE TO START */}
         <div className={styles.checkMark}>
           <Image src={"/settings.png"} width={128} height={128} />
         </div>
+        <div className={styles.buildTitle}>BUILD YOUR BUSINESS ONLINE</div>
+        <div>
+          <Image src={"/setup_business.png"} width={1024} height={627} />
+        </div>
+        <div className={styles.getInTouchBTN}>GET IN TOUCH</div>
         <Footer />
       </main>
     </div>
