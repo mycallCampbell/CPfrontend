@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/addAssignment.module.css";
 import InputField from "../components/InputField";
 import Hero from "../components/Hero";
 import TitleHero from "../components/TitleHero";

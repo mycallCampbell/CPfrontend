@@ -1,7 +1,23 @@
-/* PRIMARY COLOUR = #91c0dc */
-/* TEXT COLOUR #2e2e2e */
+/* BUTTONS */
 
-.container {
+.moreInfoBTN {
+    padding: 3px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    background: #91c0dc;
+    color: #fff;
+    cursor: pointer;
+}
+
+.getInTouchBTN {
+    padding: 10px 20px;
+    margin: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #479986;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
 }
 
 .heroContainer {
@@ -14,9 +30,11 @@
 .titleHeroContainer {
     position: absolute;
     width: 100%;
-    top: 30%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.1);
+
     color: #fff;
     text-shadow: 2px 2px 3px black;
     line-height: 1.3;
@@ -29,8 +47,118 @@
     font-size: 1.5rem;
 }
 
-.subTitle {
+.SubTitle {
     text-align: center;
-    margin: 40px 0 20px 0;
     font-size: 1.3rem;
+    margin: 40px 0 20px 0;
+    color: #2e2e2e;
+}
+
+.infoSection2 {
+    margin: 20px;
+    text-transform: uppercase;
+    color: #717171;
+}
+
+.infoSection2 span{
+    color: green
+}
+
+.selectInstructions{
+    text-align: center;
+    margin: 20px;
+    color: #2e2e2e;
+
+}
+
+.selectBoxContainer {
+    text-align: center;
+}
+
+.selectBox{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.selectBox:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+
+
+.howItsDone {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    color: #2e2e2e;
+}
+
+.unorderedList{
+  list-style-type: disc;
+}
+
+
+.listItem  {
+  font-weight: 700;
+  color: #2f7b67;
+}
+
+
+.additionalInfo {
+    margin: 10px 20px 10px 0;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    text-align: start;
+    color: #717171;
+}
+
+.heroContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.titleHeroContainer1 {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.9);
+    line-height: 1.3;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.section2Icon {
+    text-align: center;
+}
+
+.displayNone {
+    display: none;
+}
+
+/* IMAGES */
+.checkMark {
+    text-align: center;
+}
+
+.buildTitle {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 30px auto;
+    color: #2e2e2e;
 }

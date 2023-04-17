@@ -3,12 +3,12 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Meta from "../components/Meta";
-import styles from "../styles/landingWebApp.module.css";
+import styles from "../styles/home.module.css";
 import Hero from "../components/Hero";
 import TitleHero from "../components/TitleHero";
 import Footer from "../components/Footer";
 
-function LandingWebApp() {
+function Home() {
   // useState
   const [speed, setSpeed] = useState(false);
   const [google, setGoogle] = useState(false);
@@ -160,4 +160,4 @@ function LandingWebApp() {
   );
 }
 
-export default LandingWebApp;
+export default Home;

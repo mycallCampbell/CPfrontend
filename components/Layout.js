@@ -35,7 +35,7 @@ function Layout({ children }) {
                 className={styles.menuContainer}
                 id="menuContainer"
               >
-                <Link href="/landingWebApp">
+                <Link href="/addAssignment">
                   <div className={styles.titleOpen}>
                     <div className={styles.infoOpen}>MYCALL</div>
                     <div className={styles.waveOpen}>DEV</div>
@@ -45,10 +45,10 @@ function Layout({ children }) {
                 <nav className={styles.navbar}>
                   <ul>
                     <li>
-                      <Link href={"/landingWebApp"}>
+                      <Link href={"/addAssignment"}>
                         <div className={styles.menuGrid}>
                           <div className={styles.menuItem1}>
-                            <p>WEB APPS</p>
+                            <p>ADD ASSIGNMENTS</p>
                           </div>
                           <div className={styles.menuItem2}>{">"}</div>
                         </div>
