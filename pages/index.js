@@ -35,7 +35,7 @@ function Home() {
             <Hero src={"/landing_Web_App.png"} width={1024} height={695} />
           </div>
           <div className={styles.titleHeroContainer}>
-            <TitleHero title={`SPEED, PERFORMANCE, FEATURE RICH WEB APPS`} />
+            <TitleHero title={`SPEED, PERFORMANCE, FEATURE-RICH WEB APPS`} />
           </div>
         </div>
 
@@ -54,7 +54,7 @@ function Home() {
 
         {/* INSTRUCTIONS FOR SELECT */}
         <div className={styles.selectInstructions}>
-          SELECT A TOPIC FROM THE DROP DOWN TO SEE HOW ITS DONE
+          SELECT A TOPIC FROM THE DROP DOWN TO FIND OUT
         </div>
 
         {/* DROP BOX */}
@@ -88,8 +88,8 @@ function Home() {
               <span className={styles.moreInfoBTN}>MORE INFO</span>
             </Link>
             <p className={styles.additionalInfo}>
-              OUR WEB APPS ARE RATED 'A' PERFORMANCE FOR SPEED BY REPUTABLE SELF
-              VERIFIABLE APPS.{" "}
+              OUR WEB APPS ARE RATED 'A' FOR PERFORMANCE AND OPTIMISATION BY
+              THIRD PARTY INDEPENDANT COMPANIES.{" "}
             </p>
           </li>
 
@@ -104,7 +104,7 @@ function Home() {
             </Link>
             <p className={styles.additionalInfo}>
               GOOGLES SEARCH ENGINE &#91;SERP&#93; REQUIRES IMAGE AND TEXT
-              ADHERENCE TO THEIR POLICY.
+              ADHERENCE IN ACCORDANCE WITH THEIR POLICY.
             </p>
           </li>
 
@@ -139,12 +139,14 @@ function Home() {
           </li>
         </ul>
         {/* SECTION WHERE TO START */}
-        <div className={styles.checkMark}>
+        <div className={styles.settingsGear}>
           <Image src={"/settings.png"} width={128} height={128} />
         </div>
-        <div className={styles.buildTitle}>BUILD YOUR BUSINESS ONLINE</div>
+        <div className={styles.buildTitle}>
+          BUILD YOUR BUSINESS ONLINE AND KEEP IT SECURE
+        </div>
         <div>
-          <Image src={"/setup_business.png"} width={1024} height={627} />
+          <Image src={"/index_hero.png"} width={1024} height={627} />
         </div>
         <div className={styles.getInTouchBTN}>GET IN TOUCH</div>
         <Footer />

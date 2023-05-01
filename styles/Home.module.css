@@ -14,7 +14,7 @@
     margin: 20px;
     font-weight: 700;
     border-radius: 5px;
-    background: #479986;
+    background: #91c0dc;
     color: #fff;
     text-align: center;
     cursor: pointer;
@@ -73,6 +73,7 @@
 
 .selectBoxContainer {
   text-align: center;
+  margin: 30px auto 20px auto;
 }
 
 .selectBox{
@@ -108,13 +109,14 @@
 
 
 .listItem  {
+  margin-top: 40px;
   font-weight: 700;
   color: #2f7b67;
 }
 
 
 .additionalInfo {
-    margin: 10px 20px 10px 0;
+    margin: 20px 20px 10px 0;
     font-size: 0.8rem;
     line-height: 1.5;
     text-align: start;
@@ -152,7 +154,8 @@
 }
 
 /* IMAGES */
-.checkMark {
+.settingsGear {
+    margin-top: 30px;
     text-align: center;
 }
 
