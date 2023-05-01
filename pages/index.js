@@ -10,39 +10,20 @@ import Footer from "../components/Footer";
 
 function Home() {
   // useState
-  const [speed, setSpeed] = useState(false);
-  const [google, setGoogle] = useState(false);
-  const [images, setImages] = useState(false);
-  const [scalabiltiy, setScalability] = useState(false);
+  // const [speed, setSpeed] = useState(false);
+  // const [google, setGoogle] = useState(false);
+  // const [images, setImages] = useState(false);
+  // const [scalabiltiy, setScalability] = useState(false);
+
+  const [selectedOption, setSelectedOption] = useState("");
 
   // ONCLICK HANDLERS
-  const handleSpeed = () => {
-    setSpeed(true);
-    setImages(false);
-    setGoogle(false);
-    setScalability(false);
+
+  const handleSelect = (e) => {
+    const optionValue = e.target.value;
+    setSelectedOption(optionValue);
   };
 
-  const handleGoogle = () => {
-    setGoogle(true);
-    setSpeed(false);
-    setImages(false);
-    setScalability(false);
-  };
-
-  const handleImages = () => {
-    setImages(true);
-    setSpeed(false);
-    setGoogle(false);
-    setScalability(false);
-  };
-
-  const handleScalability = () => {
-    setScalability(true);
-    setImages(false);
-    setSpeed(false);
-    setGoogle(false);
-  };
   return (
     <div className={styles.container}>
       <Meta
@@ -52,6 +33,7 @@ function Home() {
           "HIGH PERFOROMING, UNIQUE WEB APPLICATION BUILT ALONGSIDE AI"
         }
       />
+
       {/* MAIN SECTION */}
       <main>
         {/* HERO SECTION */}
@@ -63,12 +45,13 @@ function Home() {
             <TitleHero title={`SPEED, PERFORMANCE, FEATURE RICH WEB APPS`} />
           </div>
         </div>
+
         {/* SECTION 2 HOW ITS DONE */}
         <div className={styles.SubTitle}>HIGH PERFORMANCE</div>
         <div className={styles.infoSection2}>
           <p>
-            The <span>ULTIMATE</span> objective web app is to increase the reach
-            of your companies' audience. It's all a numbers game....
+            The <span>ULTIMATE</span> objective for a web app is to increase the
+            reach of your companies' audience. It's all a numbers game....
           </p>
         </div>
         <div className={styles.section2Icon}>
@@ -83,28 +66,30 @@ function Home() {
 
         {/* DROP BOX */}
         <div className={styles.selectBoxContainer}>
-          <select className={styles.selectBox}>
+          <select
+            value={selectedOption}
+            className={styles.selectBox}
+            onChange={(e) => {
+              handleSelect(e);
+            }}
+          >
             <option value="" disabled selected>
               Select an option
             </option>
-            <option onClick={(e) => handleSpeed(e)} value="speed">
-              SPEED
-            </option>
-            <option onClick={(e) => handleGoogle(e)} value="google">
-              GOOGLE
-            </option>
-            <option onClick={(e) => handleImages(e)} value="images">
-              IMAGES
-            </option>
-            <option onClick={(e) => handleScalability(e)} value="scalability">
-              SCALABILITY
-            </option>
+            <option value="speed">SPEED</option>
+            <option value="google">GOOGLE</option>
+            <option value="images">IMAGES</option>
+            <option value="scalability">SCALABILITY</option>
           </select>
         </div>
 
         {/* UL LIST WITH ONCLICK HANDLERS*/}
         <ul className={styles.unorderedList}>
-          <li className={speed ? styles.listItem : styles.displayNone}>
+          <li
+            className={
+              selectedOption === "speed" ? styles.listItem : styles.displayNone
+            }
+          >
             SPEED
             <Link href={"/speed"}>
               <span className={styles.moreInfoBTN}>MORE INFO</span>
@@ -115,7 +100,11 @@ function Home() {
             </p>
           </li>
 
-          <li className={google ? styles.listItem : styles.displayNone}>
+          <li
+            className={
+              selectedOption === "google" ? styles.listItem : styles.displayNone
+            }
+          >
             GOOGLE{" "}
             <Link href={"/#"}>
               <span className={styles.moreInfoBTN}>MORE INFO</span>
@@ -125,7 +114,12 @@ function Home() {
               ADHERENCE TO THEIR POLICY.
             </p>
           </li>
-          <li className={images ? styles.listItem : styles.displayNone}>
+
+          <li
+            className={
+              selectedOption === "images" ? styles.listItem : styles.displayNone
+            }
+          >
             IMAGES{" "}
             <Link href={"/#"}>
               <span className={styles.moreInfoBTN}>MORE INFO</span>
@@ -135,7 +129,13 @@ function Home() {
             </p>
           </li>
 
-          <li className={scalabiltiy ? styles.listItem : styles.displayNone}>
+          <li
+            className={
+              selectedOption === "scalability"
+                ? styles.listItem
+                : styles.displayNone
+            }
+          >
             SCALABILITY{" "}
             <Link href={"/#"}>
               <span className={styles.moreInfoBTN}>MORE INFO</span>
