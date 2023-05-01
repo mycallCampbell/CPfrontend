@@ -9,16 +9,9 @@ import TitleHero from "../components/TitleHero";
 import Footer from "../components/Footer";
 
 function Home() {
-  // useState
-  // const [speed, setSpeed] = useState(false);
-  // const [google, setGoogle] = useState(false);
-  // const [images, setImages] = useState(false);
-  // const [scalabiltiy, setScalability] = useState(false);
-
   const [selectedOption, setSelectedOption] = useState("");
 
-  // ONCLICK HANDLERS
-
+  // ONCHANGE HANDLERS
   const handleSelect = (e) => {
     const optionValue = e.target.value;
     setSelectedOption(optionValue);
