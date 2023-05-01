@@ -55,9 +55,11 @@
 }
 
 .infoSection2 {
+    text-align: center;
     margin: 20px;
     text-transform: uppercase;
     color: #717171;
+    font-size: .9rem;
 }
 
 .infoSection2 span{
@@ -67,8 +69,8 @@
 .selectInstructions{
     text-align: center;
     margin: 20px;
-    color: #2e2e2e;
-
+    color: #717171;
+    font-size: .9rem;
 }
 
 .selectBoxContainer {
@@ -85,8 +87,7 @@
   color: #333;
   background-color: #fff;
   appearance: none;
-  /* -webkit-appearance: none;
-  -moz-appearance: none; */
+  text-align: center;
 }
 
 .selectBox:focus {
