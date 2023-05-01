@@ -10,7 +10,7 @@
 }
 
 .menuContainer{
-margin-top: 10px;
+/* margin-top: 10px; */
 }
 
 .menuGrid {
@@ -35,6 +35,9 @@ margin-top: 10px;
   justify-content: center;
   align-items: center;
   font-weight: 500;
+}
+.logoOpenImage {
+  text-align: center;
 }
 
 .infoOpen {

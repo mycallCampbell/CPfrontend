@@ -22,28 +22,25 @@ function Layout({ children }) {
         >
           <section>
             {!toggleMenu ? (
-              <div>
-                <Link href={"#menuContainer"}>
+              <Link href={"/menuContainer"}>
+                <div>
                   <li
                     className={styles.hamburgerIcon}
                     onClick={(e) => handleToggle(e)}
                   >
                     <Image src="/hamburger.png" width={25} height={25} />
                   </li>
-                </Link>
-              </div>
+                </div>
+              </Link>
             ) : (
               <div
                 onClick={(e) => handleToggle(e)}
                 className={styles.menuContainer}
                 id="menuContainer"
               >
-                <Link href="/addAssignment">
-                  <div className={styles.titleOpen}>
-                    <div className={styles.infoOpen}>MYCALL</div>
-                    <div className={styles.waveOpen}>DEV</div>
-                  </div>
-                </Link>
+                <div className={styles.logoOpenImage}>
+                  <Image src={"/logoV2.png"} width={62.5} height={62.5} />
+                </div>
 
                 <nav className={styles.navbar}>
                   <ul>
@@ -66,6 +63,8 @@ function Layout({ children }) {
               </div>
             )}
           </section>
+
+          {/* DESKTOP */}
 
           <section
             className={!toggleMenu ? styles.logoContainer : styles.displayNone}
