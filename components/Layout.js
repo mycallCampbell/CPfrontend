@@ -9,7 +9,7 @@ import Navgrid from "./Navgrid";
 function Layout({ children }) {
   const [open, setOpen] = useState(false);
 
-  const handleOpen = () => {
+  const handleToggle = () => {
     setOpen(!open);
   };
 
@@ -23,7 +23,7 @@ function Layout({ children }) {
                 <Link href={"#menuContainer"}>
                   <li
                     className={styles.hamburgerIcon}
-                    onClick={(e) => handleOpen(e)}
+                    onClick={(e) => handleToggle(e)}
                   >
                     <Image src="/hamburger.png" width={25} height={25} />
                   </li>
@@ -31,7 +31,7 @@ function Layout({ children }) {
               </div>
             ) : (
               <div
-                onClick={(e) => handleOpen(e)}
+                onClick={(e) => handleToggle(e)}
                 className={styles.menuContainer}
                 id="menuContainer"
               >
