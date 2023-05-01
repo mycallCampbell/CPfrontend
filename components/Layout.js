@@ -7,18 +7,21 @@ import styles from "./Layout.module.css";
 import Navgrid from "./Navgrid";
 
 function Layout({ children }) {
-  const [open, setOpen] = useState(false);
+  const [toggleMenu, setToggleMenu] = useState(false);
 
-  const handleToggle = () => {
-    setOpen(!open);
+  const handleToggle = (e) => {
+    e.preventDefault();
+    setToggleMenu(!toggleMenu);
   };
 
   return (
     <div className={styles.container}>
       <div className={styles.sticky}>
-        <main className={!open ? styles.layoutContainer : styles.displayTitle}>
+        <main
+          className={!toggleMenu ? styles.layoutContainer : styles.displayTitle}
+        >
           <section>
-            {!open ? (
+            {!toggleMenu ? (
               <div>
                 <Link href={"#menuContainer"}>
                   <li
@@ -65,7 +68,7 @@ function Layout({ children }) {
           </section>
 
           <section
-            className={!open ? styles.logoContainer : styles.displayNone}
+            className={!toggleMenu ? styles.logoContainer : styles.displayNone}
           >
             <Link href="/">
               <div className={styles.titleClosed}>
@@ -76,7 +79,7 @@ function Layout({ children }) {
 
           {/* CartIcon */}
           <section>
-            <div className={!open ? styles.cartIcon : styles.displayNone}>
+            <div className={!toggleMenu ? styles.cartIcon : styles.displayNone}>
               <CartIcon />
             </div>
           </section>

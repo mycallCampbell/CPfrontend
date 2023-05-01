@@ -1,3 +1,5 @@
+
+
 .displayNone {
   display: none;
 }
@@ -28,6 +30,7 @@ margin-top: 10px;
 
 /* Title */
 .titleOpen{
+  /* margin-top: 20px; */
   display: flex;
   justify-content: center;
   align-items: center;
