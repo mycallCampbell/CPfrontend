@@ -11,10 +11,10 @@
 
 .getInTouchBTN {
     padding: 10px 20px;
-    margin: 20px;
+    margin: 20px 40px;
     font-weight: 700;
     border-radius: 5px;
-    background: #153d54;
+    background: #218a88;
     color: #fff;
     text-align: center;
     cursor: pointer;
@@ -57,6 +57,7 @@
 .infoSection2 {
     text-align: center;
     margin: 20px;
+    line-height: 1.5;
     text-transform: uppercase;
     color: #717171;
     font-size: .9rem;
@@ -162,7 +163,9 @@
 
 .buildTitle {
     text-align: center;
-    font-size: 1.3rem;
-    margin: 30px auto;
-    color: #2e2e2e;
+    font-size: .9rem;
+    margin: 30px 20px;
+    line-height: 1.5;
+    color: #717171;
+
 }

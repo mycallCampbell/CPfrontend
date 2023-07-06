@@ -39,7 +39,7 @@ function Layout({ children }) {
                 id="menuContainer"
               >
                 <div className={styles.logoOpenImage}>
-                  <Image src={"/logoV2.png"} width={62.5} height={62.5} />
+                  <Image src={"/teel_logo.png"} width={62.5} height={62.5} />
                 </div>
 
                 <nav className={styles.navbar}>
