@@ -20,10 +20,10 @@ function Home() {
   return (
     <div className={styles.container}>
       <Meta
-        title={"WEB APP"}
-        keywords={"WEB APPLICATION, HIGH PERFORMANCE, RESPONSIVE"}
+        title={"MYCALL DEV"}
+        keywords={"CYBER SECURITY, NETWORKING AND PROGRAMMING"}
         description={
-          "HIGH PERFOROMING, UNIQUE WEB APPLICATION BUILT ALONGSIDE AI"
+          "THE ETHERIC TRIANGLE"
         }
       />
 
