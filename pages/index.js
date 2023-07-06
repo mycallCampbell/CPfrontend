@@ -1,11 +1,8 @@
 import React from "react";
-import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Meta from "../components/Meta";
 import styles from "../styles/Home.module.css";
-import Hero from "../components/Hero";
-import TitleHero from "../components/TitleHero";
 import Footer from "../components/Footer";
 
 function Home() {
@@ -31,15 +28,22 @@ function Home() {
       <main>
         {/* HERO SECTION */}
         <div className={styles.heroContainer}>
-          <div>
-            <Hero src={"/landing_Web_App.png"} width={1024} height={695} />
-          </div>
-          <div className={styles.titleHeroContainer}>
-            <TitleHero title={`CYBER SECURITY, NETWORKING, PROGRAMMING`} />
-          </div>
+            <Image src={"/landing_Web_App.png"} width={1024} height={695} />
+            <div className={styles.heroContent}>
+              <div className={styles.heroContentItem}>
+                CYBER SECURITY 
+              </div> 
+              <div className={styles.heroContentItem}>
+                NETWORKING
+              </div>
+            <div className={styles.heroContentItem}>
+              PROGRAMMING
+            </div> 
+            </div>
+            
         </div>
 
-        {/* SECTION 2 HOW ITS DONE */}
+        {/* SECTION 2 */}
         <div className={styles.SubTitle}>ETHERIC TRIANGLE</div>
         <div className={styles.infoSection2}>
           <p>
