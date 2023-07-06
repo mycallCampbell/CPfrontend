@@ -1,8 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/addAssignment.module.css";
 import InputField from "../components/InputField";
-import Hero from "../components/Hero";
-import TitleHero from "../components/TitleHero";
 
 export default function addAssignment() {
   return (
@@ -22,10 +20,10 @@ export default function addAssignment() {
       <main>
         <div className={styles.heroContainer}>
           <div>
-            <Hero src={"/hero_waves_stars.png"} width={1024} height={682} />
+            
           </div>
           <div className={styles.titleHeroContainer}>
-            <TitleHero title={`WELCOME TO YOUR PERSONAL AI ORGANISER`} />
+        
           </div>
         </div>
 
