@@ -59,7 +59,9 @@ function Home() {
         <div className={styles.articleTag}>
           CHECK OUT MY ARTICLE WHICH SETS OUT A PROTOCOL ON HOW TO ABSORB NEW INFORMATION IN A STRUCTURED AND PROFICIENT WAY.
         </div>
-        <div className={styles.letsGoBTN}>LETS GO</div>
+        <Link href={'/learnTolearn'}>
+          <div className={styles.letsGoBTN}>LETS GO</div>
+        </Link>
 
         <div className={styles.thinkingImageContainer}>
           <Image src={"/thinking.png"} width={1024} height={1024} className={styles.thinkingImage} />

@@ -1,3 +1,11 @@
+.spaceMargin{
+    margin: 10px auto;
+    font-weight: 700;
+}
+
+.spaceMarginNormal {
+    margin: 10px auto;
+}
 .subTitle {
     text-align: center;
     font-size: 1.3rem;
@@ -30,11 +38,21 @@
 
 .mainContent {
     text-align: start;
-    margin: 20px;
+    margin: 10px 20px 20px 20px;
     line-height: 1.7;
     text-transform: uppercase;
     color: #717171;
     font-size: 1rem;
+} 
+
+.mainContentThick {
+    text-align: start;
+    margin: 20px 22px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    color: #717171;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 .mainContent span{
@@ -53,10 +71,11 @@
 }
 
 .subjectTitle {
-    text-align: center;
-    font-size: 1.3rem;
-    margin: 40px 0 20px 0;
+    text-align: start;
+    font-size: 1.5rem;
+    margin: 40px 20px 10px 20px;
     color: #2e2e2e;
+    text-transform: uppercase;
 }
 
 .sideNote {
@@ -64,6 +83,14 @@
     font-size: 1.3rem;
     margin: 40px 20px 20px 20px;
     color: #2e2e2e;
+}
+
+.listI {
+    text-align: start;
+    text-transform: uppercase;
+    color: #717171;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 /* IMAGES */
