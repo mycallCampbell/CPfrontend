@@ -67,7 +67,7 @@ function learnTolearn() {
         The Protocol I have set out is structured into <span>7</span> orderly sections: 
         <ol>
             <li className={styles.listI}>Relevance and/or context for why we are learning such subject</li>
-            <li className={styles.listI}>Explination of the Subject</li>
+            <li className={styles.listI}>Explanation of the Subject</li>
             <li className={styles.listI}>Analogy</li>
             <li className={styles.listI}>Example</li>
             <li className={styles.listI}>Deduction - How not to use</li>
