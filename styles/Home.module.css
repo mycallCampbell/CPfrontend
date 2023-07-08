@@ -1,5 +1,8 @@
-/* BUTTONS */
+.displayNone {
+    display: none;
+}
 
+/* BUTTONS */
 .moreInfoBTN {
     padding: 3px 20px;
     margin: 5px;
@@ -9,17 +12,17 @@
     cursor: pointer;
 }
 
-.getInTouchBTN {
-    padding: 10px 20px;
-    margin: 20px 40px;
+.letsGoBTN {
+    padding: 20px 20px;
+    margin: 40px 40px;
     font-weight: 700;
-    border-radius: 5px;
-    background: #218a88;
+    border-radius: 11px;
+    background: #2f7c68;
     color: #fff;
     text-align: center;
     cursor: pointer;
 }
-
+/* HERO */
 .heroContainer {
     position: relative;
     display: flex;
@@ -39,8 +42,6 @@
     margin: 15px 10px;
 }
 
-
-
 .SubTitle {
     text-align: center;
     font-size: 1.3rem;
@@ -48,6 +49,7 @@
     color: #2e2e2e;
 }
 
+/* SECTION 2 */
 .infoSection2 {
     text-align: center;
     margin: 20px;
@@ -61,36 +63,11 @@
     color: green
 }
 
-.selectInstructions{
-    text-align: center;
-    margin: 20px;
-    color: #717171;
-    font-size: .9rem;
-}
 
 .selectBoxContainer {
   text-align: center;
   margin: 30px auto 20px auto;
 }
-
-.selectBox{
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
-  font-size: 16px;
-  color: #333;
-  background-color: #fff;
-  appearance: none;
-  text-align: center;
-}
-
-.selectBox:focus {
-    outline: none;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
-}
-
-
 
 .howItsDone {
     text-align: center;
@@ -98,16 +75,21 @@
     margin-bottom: 30px;
     color: #2e2e2e;
 }
-
-.unorderedList{
-  list-style-type: disc;
+.unorderedList {
+    padding: 0;
+}
+.listItemsContainer {
+    margin: 40px 20px;
 }
 
 
 .listItem  {
-  margin-top: 40px;
-  font-weight: 700;
-  color: #2f7b67;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 400;
+  margin: 15px 10px;
+  color: #717171;
 }
 
 
@@ -126,40 +108,83 @@
     justify-content: center
 }
 
-.titleHeroContainer1 {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
-    text-shadow: 1px 1px 3px black;
-    box-shadow: 0px 0px 3px rgba(0,0,0,0.9);
-    line-height: 1.3;
-    text-align: center;
-    padding: 1rem;
-    font-size: 1.5rem;
-}
-
 .section2Icon {
     text-align: center;
 }
 
-.displayNone {
-    display: none;
-}
-
-/* IMAGES */
-.settingsGear {
-    margin-top: 30px;
+.infoSectionTag {
     text-align: center;
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin: 30px 20px;
+    line-height: 1.5;
+    color: #717171;
 }
 
-.buildTitle {
+.thinkingImageContainer {
+    position: relative;
+}
+
+.articleTag {
     text-align: center;
     font-size: .9rem;
     margin: 30px 20px;
     line-height: 1.5;
     color: #717171;
+}
 
+.techStackTitle {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    width: 100vw;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px black;
+    z-index: 1000;
+    text-align: center;
+    line-height: 1.3;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0px auto;
+    padding: 0 15px;
+    color: #fff;
+    
+}
+
+.techStackTitle span {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.linkedinIconContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.linkedinIcon {
+    text-align: center;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.footerContainer {
+    background: #50867d;
+}
+
+.footerContentContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.footerContent {
+    color: #fff;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+.emailContact {
+    text-align: center;
+    color:#fff;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
