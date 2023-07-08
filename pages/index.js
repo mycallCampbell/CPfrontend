@@ -44,7 +44,7 @@ function Home() {
         </div>
 
         {/* SECTION 2 */}
-        <div className={styles.SubTitle}>ETHERIC TRIANGLE</div>
+        <div className={styles.subTitle}>ETHERIC TRIANGLE</div>
         <div className={styles.infoSectionTag}>
             Each Technical Discipline is suppourted and underpinned by the other. 
         </div>
