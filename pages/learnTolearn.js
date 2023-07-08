@@ -189,7 +189,7 @@ function learnTolearn() {
         {/* FOOTER */}
         <div className={styles.footerContainer}>
           <div className={styles.footerContentContainer}>
-            <div className={styles.footerContent}>THE CYBER SECURITY, NETWORKING AND PROGRAMMING BLOG....</div>
+            <div className={styles.footerContent}>CYBER SECURITY, NETWORKING AND PROGRAMMING BLOG....</div>
           </div>
           <div className={styles.linkedinIconContainer}>
             <Link href={'https://uk.linkedin.com/in/mycall-dev-69aa08271'}>
