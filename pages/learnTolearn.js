@@ -13,7 +13,7 @@ function learnTolearn() {
         title={"MYCALL DEV"}
         keywords={"Learn To Learn"}
         description={
-          "The Blog on How to Learn"
+          "Learn How to Learn"
         }
       />
 
