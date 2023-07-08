@@ -75,7 +75,7 @@ function Home() {
             <li className={styles.listItem}>Vanilla CSS for Design</li>
             <li className={styles.listItem}>Virtual Private Server for Speed</li>
             <li className={styles.listItem}>Postgresql for the Database</li>
-            <li className={styles.listItem}>Midjourney AI generated for Images</li>
+            <li className={styles.listItem}>AI generated Images</li>
 
           </ul>
         </div>
@@ -86,7 +86,7 @@ function Home() {
             <div className={styles.footerContent}>THE CYBER SECURITY, NETWORKING AND PROGRAMMING BLOG....</div>
           </div>
           <div className={styles.linkedinIconContainer}>
-            <Link href={'/https://uk.linkedin.com/in/mycall-dev-69aa08271'}>
+            <Link href={'https://uk.linkedin.com/in/mycall-dev-69aa08271'}>
               <Image src={'/linkedin_white.svg'} width={50} height={50} className={styles.linkedinIcon} />
             </Link>
           </div>

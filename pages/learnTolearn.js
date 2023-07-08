@@ -156,6 +156,8 @@ function learnTolearn() {
           This may seem like an obvious action to carry out. Well.... I'll let you figure this one out for yourself....
         </div>
 
+        <Image src={'/green_computer  .png'} width={512} height={512} />
+
         
         <div className={styles.sideNote}>
         SIDE NOTE
