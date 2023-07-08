@@ -73,6 +73,8 @@ function Home() {
             <li className={styles.listItem}>Vanilla CSS for Design</li>
             <li className={styles.listItem}>Virtual Private Server for Speed</li>
             <li className={styles.listItem}>Postgresql for the Database</li>
+            <li className={styles.listItem}>Midjourney AI generated for Images</li>
+
           </ul>
         </div>
 

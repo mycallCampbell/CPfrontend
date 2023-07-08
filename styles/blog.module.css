@@ -1,0 +1,50 @@
+.subTitle {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 40px 0 20px 0;
+    color: #2e2e2e;
+}
+
+.infoSectionTag {
+    text-align: center;
+    margin: 20px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #717171;
+    font-size: .9rem;
+}
+
+/* FOOTER */
+
+.linkedinIconContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.linkedinIcon {
+    text-align: center;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.footerContainer {
+    background: #50867d;
+}
+
+.footerContentContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.footerContent {
+    color: #fff;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+.emailContact {
+    text-align: center;
+    color:#fff;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
