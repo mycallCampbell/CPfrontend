@@ -198,7 +198,7 @@ function learnTolearn() {
               <Image src={'/linkedin_white.svg'} width={50} height={50} className={styles.linkedinIcon} />
             </Link>
           </div>
-          <div className={styles.emailContact}>contact@mycalldev.com</div>
+          <div className={styles.emailContact}>info@mycalldev.com</div>
         </div>
       </main>
     </div>
